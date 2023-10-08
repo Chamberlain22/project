@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: white;
+}
+.main-logo{
+    display: flex;
+}
+.logo{
+    padding: 15px 30px;
+    margin-right: 350px;
+}
+.title{
+    text-align: center;
+    margin: 15px 30px;
+    font-family: cursive;
+}
+.title h2{
+    color: red;
+}
+.title h3{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+ul {
+    display: flex;
+    padding: 12px 30px;
+    justify-content: center;
+}
+li{
+    list-style-type: none;
+}
+li a{
+    text-decoration: none;
+    padding: 13px 30px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+.nav ul, li a{
+    background-color: gray;
+    padding: 30px 40px;
+}
+.nav ul{
+    border: 1px solid black;
+}
+li a:hover{
+ background-color:black;
+ border-radius: 20px;
+ color: red;
+}
+.main{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url(photos/download.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: end;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.heading{
+    text-align: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+.heading h1{
+    color: red;
+}
+.main input[type="submit"]{
+    width: 100px;
+    background-color: cornflowerblue;
+    color: black;
+    border: 1px solid black;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight:600;
+}
+.main input[type="submit"]:hover{
+    background-color: black;
+    color: red;
+    border: 1px solid black;
+}
+.card{
+    width: 30%;
+    background-color:white;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 40px;
+    display: inline-block;
+
+}
+.image img{
+    width: 100%;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+}
+.card:hover{
+    box-shadow: 2px 2px 10px white;
+}
+.price{
+    margin-bottom: 20px;
+}
+.fea{
+    text-align: center;
+    color: red;
+    border: 1px solid black;
+    padding: 10px;
+}
+.mcard{
+    width: 25%;
+    background-color:black;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 40px;
+    display: inline-block;
+}
+.fname{
+  margin: 10px;
+  color: red;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+}
+.ptag{
+    text-align: center;
+    font-weight: 900;
+    padding: 10px;
+    font-family: cursive;
+    color: white;
+}
+.btn{
+    text-align: center;
+}
+button{
+    padding: 10px;
+    margin-top: 10px;
+    background-color: cornflowerblue;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    border: none;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: white;
+    color: red;
+    font-size: 700;
+}
+.mcard:hover{
+    box-shadow: 2px 2px 10px black;
+}
+p{
+    text-align: center;
+    font-size: 600;
+    font-weight: 700;
+    background-color: darkgray;
+    padding: 5px ;
+}
+
